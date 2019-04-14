@@ -12,8 +12,8 @@ Desktop.ini
 .directory
 *~
 
-# npm
+# npm/yarn
 /node_modules
 *.log
 *.gz
-package-lock.json
+yarn.lock

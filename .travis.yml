@@ -1,0 +1,25 @@
+language: node_js
+node_js: "stable"
+
+services:
+  - docker
+
+install:
+  - docker build -t auth0 .
+  - npm install
+
+script:
+  - npm run eslint
+  - |
+    docker run --rm -it \
+      -v "$(pwd)/tests":/src \
+      -v /var/run/docker.sock:/var/run/docker.sock \
+    iorubs/dgoss run auth0
+
+deploy:
+  provider: script
+  script:
+    - "cp .npmrc.template $HOME/.npmrc && npm publish"
+  skip_cleanup: true
+  on:
+    branch: master

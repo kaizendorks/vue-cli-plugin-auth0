@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-auth0",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Vue CLI 3 plugin for adding Auth0 files.",
   "author": "Kaizen Dorks <kaizendorks@gmail.com>",
   "scripts": {
