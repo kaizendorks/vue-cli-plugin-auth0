@@ -9,7 +9,7 @@ install:
   - npm install
 
 script:
-  - npm run eslint
+  - npm run lint -- --no-fix
   - |
     docker run --rm -it \
       -v "$(pwd)/tests":/src \

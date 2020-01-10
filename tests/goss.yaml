@@ -7,3 +7,62 @@ file:
     group: root
     filetype: directory
     contains: []
+  /src/app/auth_config.json:
+    exists: true
+    mode: "0644"
+    size: 45
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/App.js:
+    exists: false
+    contains: []
+  /src/app/src/App.vue:
+    exists: true
+    mode: "0644"
+    size: 1341
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/auth/authGuard.js:
+    exists: true
+    mode: "0644"
+    size: 680
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/auth/index.js:
+    exists: true
+    mode: "0644"
+    size: 3999
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/main.js:
+    exists: true
+    mode: "0644"
+    size: 603
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/router/index.js:
+    exists: true
+    mode: "0644"
+    size: 822
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+  /src/app/src/views/Profile.vue:
+    exists: true
+    mode: "0644"
+    size: 253
+    owner: root
+    group: root
+    filetype: file
+    contains: []

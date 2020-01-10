@@ -1,0 +1,9 @@
+{
+<% if (configuredAuth0) { _%>
+  "domain": "<%= auth0Domain %>",
+  "clientId": "<%= auth0ClientId %>"
+<% } else { _%>
+  "domain": "AUTH_DOMAIN",
+  "clientId": "AUTH_CLIENT_ID"
+<% } _%>
+}

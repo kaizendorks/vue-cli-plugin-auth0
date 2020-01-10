@@ -1,20 +1,18 @@
 {
   "name": "vue-cli-plugin-auth0",
-  "version": "0.0.1",
-  "description": "Vue CLI 3 plugin for adding Auth0 files.",
+  "version": "1.0.0",
+  "description": "Vue CLI 4 plugin for adding Auth0 files.",
   "author": "Kaizen Dorks <kaizendorks@gmail.com>",
   "scripts": {
-    "eslint": "node ./node_modules/.bin/eslint --ext .js ."
+    "lint": "node ./node_modules/.bin/eslint --ext .js,.vue ."
   },
   "main": "index.js",
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.1",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "@vue/cli-service": "^4.1.2",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2"
   },
   "bugs": {
     "url": "https://github.com/kaizendorks/vue-cli-plugin-auth0/issues"
@@ -31,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaizendorks/vue-cli-plugin-vuedock.git"
+    "url": "git+https://github.com/kaizendorks/vue-cli-plugin-auth0.git"
   },
   "dependencies": {}
 }
