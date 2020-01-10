@@ -19,8 +19,6 @@ Vue CLI 3 Plugin for adding the files required for setting up Auth0 authenticati
 
 ## Installation
 
-If you use the vue router plugin:
-
 Run the following command from your project's root folder: `vue add auth0`
 
 Files Generated:
