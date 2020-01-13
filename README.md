@@ -1,5 +1,5 @@
 # Vue Auth0 plugin
-Vue CLI 3 Plugin for adding the files required for setting up Auth0 authentication.
+> Vue CLI 3 Plugin for adding the files required for setting up Auth0 authentication.
 
 [![Build Status](https://travis-ci.org/kaizendorks/vue-cli-plugin-auth0.svg?branch=master)](https://travis-ci.org/kaizendorks/vue-cli-plugin-auth0)
 
@@ -14,28 +14,51 @@ Vue CLI 3 Plugin for adding the files required for setting up Auth0 authenticati
 
 ## Pre-install
 
-1. Configured an Auth0 client/Applications: <https://auth0.com/docs/quickstart/spa/vuejs/01-login#configure-auth0>
+1. Sign-up and login to you Auth0 Dashboard: <https://auth0.com/>
+1. Create an Auth0 Client/Application: Dashboard > Applications > Create Application
+    1. Enter the name of your application.
+    1. Select `Single Page Web Applications`
+    1. Press `Create`
+    1. Select `Settings`
+    1. Add `http://localhost:8080` to the following fields:
+        * Allowed Callback URLs
+        * Allowed Web Origins
+        * Allowed Logout URLs
+    1. Scroll down to the bottom and press `Save Changes`
 
+1. (Optional) Setup desired connections: Dashboard > Connections > Social
+	1. Connections are third party services that can be used to authenticate with, for example:
+		* Google
+		* GitHub
+		* Facebook
+    1. (WARNING) The default Google connection will let you login but won’t keep you logged in if you leave or refresh the website. this is a Auth0’s default connection and its just for testing purposes.
 
 ## Installation
 
-Run the following command from your project's root folder: `vue add auth0`
-
-Files Generated:
-
-Files Updated:
+* Run `vue add auth0` from your project's root folder.
+* Files Generated:
+    1. `auth_config.json`: Stores Auth0's domain and clientId.
+    1. `src/auth/index.js`: Main Auth0 lib file containing authentication logic.
+    1. `src/auth/authGuard.js`: Can be used to protect private vue-router routes.
+    1. `src/views/Profile.vue`: A very simple profile component to be used with vue-router.
+* Files Updated:
+    1. `src/App.vue`
+    1. `src/main.js`
+    1. `src/router/index.js`
 
 ### Options
 
 Option 1 Have you configured an Auth0 client?
 
-  Option 1.1 Auth0 client domain?
+  Option 1.1 Auth0 client domain? You can get this from the Application Settings page.
 
-  Option 1.2 Auth0 client ID?
+  Option 1.2 Auth0 client ID? You can get this from the Application Settings page.
 
 If not, make sure to update auth_config.json afterwards
 
-Option 2: Use history mode for router? (Requires proper server setup for index fallback in production)
+Option 2: Would you like to use Vue Router?
+
+  Option 2.1 Use history mode for router? (Requires proper server setup for index fallback in production)
 
 ## Usage
 

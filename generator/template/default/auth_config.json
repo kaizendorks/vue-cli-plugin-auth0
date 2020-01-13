@@ -3,7 +3,7 @@
   "domain": "<%= auth0Domain %>",
   "clientId": "<%= auth0ClientId %>"
 <% } else { _%>
-  "domain": "AUTH_DOMAIN",
-  "clientId": "AUTH_CLIENT_ID"
+  "domain": "AUTH0_DOMAIN",
+  "clientId": "AUTH0_CLIENT_ID"
 <% } _%>
 }

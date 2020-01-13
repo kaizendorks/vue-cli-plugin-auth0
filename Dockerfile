@@ -6,7 +6,7 @@ COPY --chown=node:node . ./auth0
 WORKDIR /src/app
 RUN yarn add --dev file:/src/auth0 \
     && vue invoke vue-cli-plugin-auth0 \
-      --configuredAuth0 y \
+      --configuredAuth0 \
       --auth0Domain fake \
       --auth0ClientId fake
 

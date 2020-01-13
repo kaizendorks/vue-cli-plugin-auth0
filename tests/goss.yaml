@@ -15,13 +15,10 @@ file:
     group: root
     filetype: file
     contains: []
-  /src/app/src/App.js:
-    exists: false
-    contains: []
   /src/app/src/App.vue:
     exists: true
     mode: "0644"
-    size: 1341
+    size: 1324
     owner: root
     group: root
     filetype: file
@@ -45,24 +42,24 @@ file:
   /src/app/src/main.js:
     exists: true
     mode: "0644"
-    size: 603
+    size: 398
     owner: root
     group: root
     filetype: file
     contains: []
-  /src/app/src/router/index.js:
-    exists: true
-    mode: "0644"
-    size: 822
-    owner: root
-    group: root
-    filetype: file
-    contains: []
-  /src/app/src/views/Profile.vue:
-    exists: true
-    mode: "0644"
-    size: 253
-    owner: root
-    group: root
-    filetype: file
-    contains: []
+  # /src/app/src/router/index.js:
+  #   exists: true
+  #   mode: "0644"
+  #   size: 822
+  #   owner: root
+  #   group: root
+  #   filetype: file
+  #   contains: []
+  # /src/app/src/views/Profile.vue:
+  #   exists: true
+  #   mode: "0644"
+  #   size: 253
+  #   owner: root
+  #   group: root
+  #   filetype: file
+  #   contains: []
