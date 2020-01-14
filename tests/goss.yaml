@@ -23,14 +23,14 @@ file:
     group: root
     filetype: file
     contains: []
-  /src/app/src/auth/authGuard.js:
-    exists: true
-    mode: "0644"
-    size: 680
-    owner: root
-    group: root
-    filetype: file
-    contains: []
+  # /src/app/src/auth/authGuard.js:
+  #   exists: true
+  #   mode: "0644"
+  #   size: 680
+  #   owner: root
+  #   group: root
+  #   filetype: file
+  #   contains: []
   /src/app/src/auth/index.js:
     exists: true
     mode: "0644"

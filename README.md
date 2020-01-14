@@ -1,5 +1,5 @@
 # Vue Auth0 plugin
-> Vue CLI 3 Plugin for adding the files required for setting up Auth0 authentication.
+> Vue CLI 4 Plugin for adding the files required for setting up Auth0 authentication.
 
 [![Build Status](https://travis-ci.org/kaizendorks/vue-cli-plugin-auth0.svg?branch=master)](https://travis-ci.org/kaizendorks/vue-cli-plugin-auth0)
 
@@ -48,17 +48,12 @@
 
 ### Options
 
-Option 1 Have you configured an Auth0 client?
+1. Have you configured an Auth0 client? If not, make sure to update auth_config.json afterwards
+    1. Auth0 client domain? You can get this from the Application Settings page.
+    1. Auth0 client ID? You can get this from the Application Settings page.
 
-  Option 1.1 Auth0 client domain? You can get this from the Application Settings page.
-
-  Option 1.2 Auth0 client ID? You can get this from the Application Settings page.
-
-If not, make sure to update auth_config.json afterwards
-
-Option 2: Would you like to use Vue Router?
-
-  Option 2.1 Use history mode for router? (Requires proper server setup for index fallback in production)
+1. Would you like to use Vue Router? This is the recomended setup for most Apps.
+    1. Use history mode for router? (Requires proper server setup for index fallback in production)
 
 ## Usage
 
