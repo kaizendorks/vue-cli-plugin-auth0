@@ -5,7 +5,7 @@ module.exports = (api, options) => {
   // Inject dependencies
   api.extendPackage({
     dependencies: {
-      '@auth0/auth0-spa-js': '^1.6.1'
+      '@auth0/auth0-spa-js': '^1.12.1'
     }
   })
 
