@@ -27,7 +27,7 @@
     1. Scroll down to the bottom and press `Save Changes`
 
 1. (Optional) Setup desired connections: Dashboard > Connections > Social
-	1. Connections are third party services that can be used to authenticate with, for example:
+    1. Connections are third party services that can be used to authenticate with, for example:
 		* Google
 		* GitHub
 		* Facebook
